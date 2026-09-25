@@ -1,0 +1,11 @@
+{
+  "name": "loro-bug1-js",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "repro": "bun repro.ts"
+  },
+  "dependencies": {
+    "loro-crdt": "^1.16.3"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "lockfileVersion": 1,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "loro-bug1-js",
+      "dependencies": {
+        "loro-crdt": "^1.16.3",
+      },
+    },
+  },
+  "packages": {
+    "loro-crdt": ["loro-crdt@1.16.3", "", {}, "sha512-0FP3TsPTCIVLg7fbjh7cJTt3evpbFD/KRfnd4k9R3ZuDTzl83nuiYK/8LRxQ35xKzcHAcvMowoL9pecNDw1bkw=="],
+  }
+}

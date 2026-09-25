@@ -1,0 +1,7 @@
+[workspace]
+resolver = "2"
+members = ["bug1-tree-overflow", "bug2-import-abort"]
+
+[workspace.dependencies]
+# The matrix script (scripts/matrix.sh) rewrites this line per version.
+loro = "=1.16.2"
