@@ -48,7 +48,7 @@ fn minimal() -> (LoroDoc, Vec<u8>) {
     (history, other.export(ExportMode::all_updates()).unwrap())
 }
 
-/// The reporters' fixtures: a 6-peer document, and an update from peer
+/// Fixtures captured from a real app: a 6-peer document, and an update from peer
 /// 2918796465566129979 that rewrites that peer's ops 0..=2 (three map inserts
 /// in `history`) as a 7-char text insert plus 10 more ops (0..=16).
 fn fixture() -> (LoroDoc, Vec<u8>) {
