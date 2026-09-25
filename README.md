@@ -20,6 +20,8 @@ Note for older versions: `loro = "=1.13.9"` alone still builds against `loro-int
 
 ## 1. Stack overflow when going back in time on a `LoroTree` after concurrent moves
 
+Upstream: [loro-dev/loro#1117](https://github.com/loro-dev/loro/issues/1117)
+
 Two peers, two nodes, six ops:
 
 ```rust
@@ -81,6 +83,8 @@ In `loro-crdt` 1.16.3 (`js-bug1/`), `forkAt`, `checkout`, `revertTo` and `diff` 
 ---
 
 ## 2. `import` of an update that reuses a peer id panics and poisons the doc
+
+Upstream: [loro-dev/loro#1118](https://github.com/loro-dev/loro/issues/1118)
 
 Two docs wrongly share a peer id and write different ops:
 
